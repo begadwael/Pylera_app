@@ -4,22 +4,18 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
 
-class homepage : AppCompatActivity() {
-    @SuppressLint("WrongViewCast")
+class Dosage_Information : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_homepage)
+        setContentView(R.layout.activity_dosage_information)
 
-
-        val englishBtn = findViewById<Button>(R.id.englishBtn)
-        englishBtn.setOnClickListener{
-            val intent = Intent(this, MainActivity::class.java)
+        val accept_2 = findViewById<ImageView>(R.id.accept_2)
+        accept_2.setOnClickListener {
+            val intent = Intent(this, SchedulingPage::class.java)
             startActivity(intent)
         }
     }
-
-
 }
