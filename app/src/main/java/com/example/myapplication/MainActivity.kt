@@ -39,6 +39,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        //schedule button
+        val scheduleButton = findViewById<Button>(R.id.scheduleBtn)
+        PylerBtn.setOnClickListener{
+            val intent = Intent(this, DrugWarning::class.java)
+            startActivity(intent)
+        }
     }}
 
 

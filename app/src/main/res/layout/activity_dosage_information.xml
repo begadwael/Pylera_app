@@ -8,14 +8,14 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="431dp"
-        android:layout_height="858dp"
-        android:layout_marginEnd="40dp"
+        android:layout_width="377dp"
+        android:layout_height="662dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/firs_time_schedule_open" />
+        app:layout_constraintVertical_bias="0.244"
+        app:srcCompat="@drawable/accept_and_proceed" />
 
     <ImageView
         android:id="@+id/accept_2"
@@ -23,9 +23,7 @@
         android:layout_height="117dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.957"
-        app:srcCompat="@drawable/accept_notif_and_proceed" />
+        app:layout_constraintVertical_bias="0.933" />
 </androidx.constraintlayout.widget.ConstraintLayout>
